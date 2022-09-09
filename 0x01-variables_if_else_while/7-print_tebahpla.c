@@ -1,7 +1,3 @@
-7)
-
-
-
 #include <stdio.h>
 
 
