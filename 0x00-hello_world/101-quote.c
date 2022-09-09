@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
- * Description: main - Prints out a string to stdout
+ * main - Prints a text
  *
- * Return: 1 if success
+ * Return: Always 1 (Success)
  */
 int main(void)
 { 
