@@ -7,31 +7,35 @@
  */
 int main(void)
 {
-int n1 = 0, n2;
-while (n1 <= 99)
-{
-	n2 = n1;
-	while (n2 <= 99)
-{
-	if (n2 != n1)
-{
-	putchar((n1 / 10) + 48);
-	putchar((n1 % 10) + 48);
-	putchar(' ');
-	putchar((n2 / 10) + 48);
-	putchar((n2 % 10) + 48);
+int num1, num2;
 
-	if (n1 != 99 || n2 != 99)
+for (num1 = 0; num 1 <= 98; num1++)
+
 {
-	putchar(' , ');
-	putchar(' , ');
+
+for (num2 = num1 + 1; num2 <= 99; num2++)
+
+{
+
+putchar((num1 / 10) + '0');
+putchar((num1 % 10) + '0');
+putchar(' ');
+putchar((num2 / 10) + '0');
+putchar((num2 % 10) + '0');
+
+if (num1 == 98 && num2 == 99)
+
+continue;
+
+putchar(' , ');
+putchar(' , ');
+
 }
+
 }
-	++n2;
-}
-	++n1;
-}
+
 putchar('\n');
+
 return (0);
 }
 
