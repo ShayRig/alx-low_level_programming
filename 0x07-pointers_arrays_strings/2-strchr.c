@@ -7,7 +7,6 @@
  *
  * Return: pointer to spot in s with c or null
  */
-
 char *_strchr(char *s, char c);
 {
 	int i;
@@ -20,4 +19,5 @@ char *_strchr(char *s, char c);
 	if (*(s + i) == c)
 		return (s + i);
 	return (0);
+
 }
