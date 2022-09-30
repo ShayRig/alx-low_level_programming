@@ -1,5 +1,5 @@
-#include "main.h"
-#include <stdio.h>
+#include <stdio.h>  
+#include <stdilib.h>
 
 /**
  * main - this is a function to print its name
@@ -9,7 +9,8 @@
  *
  * Return : 0 for success
  */
-int main(int argc, char argv[])
+
+int main(int argc, char *argv[])
 {
 	int result, num1, num2;
 
