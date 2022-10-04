@@ -18,12 +18,12 @@ int len(char *str)
 }
 
 /**
- * argstostr - a function that concatenates all the argument of your program
- * @ac: count of args passed to the function
- * @av: array of arguments
- *
- * Return: pointer to the new string
- */
+* argstostr - a function that concatenates all the argument of your program
+*@ac: count of args passed to the function
+*@av: array of arguments
+*
+*Return: pointer to the new string
+*/
 
 char *argstostr(int ac, char **av)
 {
