@@ -9,7 +9,7 @@
  *
  * Return: char pointer to newly allocated place in memory
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i, j, k;
 	char *s;
@@ -36,7 +36,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
 	for (k = 0; k < i; k++)
 		s[k] = s1[k];
 	for (k = 0; k < j; k++)
-		s[k + i] = s2[k];
-	s[i + j] = '\0';
-	return (s);
-}
+		s[k + j] = s2[k]
